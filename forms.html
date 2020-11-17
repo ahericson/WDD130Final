@@ -3,6 +3,44 @@
   <head>
     <meta charset="utf-8">
     <title>My test page</title>
+    <style>
+      form {
+        margin:0 auto;
+        width: 500px;
+        padding: 1em;
+        border: 1px solid #ccc;
+        border-radius: 1em;
+          }
+      
+      ul {
+        list-style: none;
+        padding:0;
+        margin: 0;
+      }
+      
+      form li + li {
+        margin-top: 1em;
+      }
+      
+      label {
+        display: inline-block;
+        width: 90px;
+        text-align: right;
+      }
+      
+      input,
+      text area {
+        font: 1em sans-serif;
+        width: 300px;
+        box-sizing: border-box;
+        border: 1px solid #999
+      }
+      
+      input:focus,
+      
+    
+    
+    </style>
   </head>
   <body>
     <p>This is my page</p>
@@ -19,6 +57,11 @@
          <li>
               <label for="msg">Message</label>
               <textarea id="msg" name="user_message"></textarea>
+         </li>
+         <li class="button">
+              <button type="submit">
+                Send your message
+              </button>
          </li>
       </ul>
     </form>
