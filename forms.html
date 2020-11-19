@@ -100,10 +100,11 @@
        const feedbackElement = document.getElementById('feedback');
        const formElement = document.forms[0];
        formElement.addEventListener('submit', function(e) {
+         console.log("HELLO")
              e.preventDefault();
              feedbackElement.innerHTML = 'Hello' + formElement.user_name.value +'! Thank you for your message. We will back with you as soon as possible!';
-             feebackElement.style.display = "block";
-             document.body.classList.toggle('moveDown')
+             feedbackElement.style.display = "block";
+             document.body.classList.toggle('moveDown');
        });
     </script>
   </body>
