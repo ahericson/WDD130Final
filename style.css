@@ -17,7 +17,6 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   background-color: #9D8189;
   color: #FFE5D9;
-  font-weight: 
 }
 
 .logo-header {
@@ -26,14 +25,16 @@ h1 {
    justify-content: center;
   }
 
-
+.logo-header img {
+  border-radius: 50%;
+}
 
 nav ul {
   list-style: none;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 12px;
-  background color:#FFE5D9;
+  background-color:;
 }
 
 nav li {
@@ -68,6 +69,7 @@ main {
 
 .home-header-1 {
   text-align: center;
+  margin-top: 0;
 }
 
 .home-right-image {
