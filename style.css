@@ -17,8 +17,16 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   background-color: #9D8189;
   color: #FFE5D9;
-  font-weight: bold;
+  font-weight: 
 }
+
+.logo-header {
+   display: grid;
+   grid-template-columns: 1fr 20px 1fr;
+  column-gap: 12px;
+  }
+
+
 
 nav ul {
   list-style: none;
