@@ -21,9 +21,9 @@ h1 {
 }
 
 .logo-header {
-   display: grid;
-   grid-template-columns: 1fr 20px 1fr;
-  column-gap: 12px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
   }
 
 
@@ -58,6 +58,7 @@ nav a {
 
 main {
   background-color: white;
+  padding: 20px;
 }
 
 .home-text-1 {
