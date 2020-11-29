@@ -127,8 +127,9 @@ footer {
   grid-column: 2/3;
   margin: 16px 0px;
   text-align: center;
+  color: black;
 }
 
-.site-plan-link a:hover{
-  color:
+.site-plan-link:hover {
+  color:#D8E2DC;
 }
