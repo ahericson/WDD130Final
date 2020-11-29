@@ -15,3 +15,12 @@ h1 {
   font-family: "Merriweather", serif;
   font-size: 32px;
 }
+
+.home-grid {
+  grid-template-columns: 1fr 20px 1fr;
+  
+}
+
+.home-header-1 {
+  grid-columns: 
+}
