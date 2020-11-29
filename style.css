@@ -10,8 +10,16 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family:"Julius Sans One", sans-serif;
   padding: 1em;
+  background-color: #D8E2DC;
   
 }
+
+h1 {
+  background-color: #9D8189;
+  color: #FFE5D9;
+  font-weight: bold;
+}
+
 nav ul {
   list-style: none;
   display: grid;
