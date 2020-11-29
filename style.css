@@ -16,6 +16,17 @@ h1 {
   font-size: 32px;
 }
 
+nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 12px;
+}
+
+nav li {
+  text-align: center;
+}
+
 .home-grid {
   display: grid;
   grid-template-columns: 1fr 20px 1fr;
