@@ -21,6 +21,7 @@
       
       .content {
         margin : 15px;
+      
       }
      
       span {
@@ -30,19 +31,21 @@
       
      button {
        margin: 0;
-       border-radius: 3px;
        float: left;
      }
      
+     footer {
+       display: flex;
+      justify-content: space-between
+     }
+     
      .view-button {
-       padding: 3px;
+       border-radius: 3px 0 0 3px;
      }
      
      .edit-button {
-       padding: 3px;
+       border-radius: 0 3px 3px 0;
      }
-     
-    
      
     
     
@@ -68,9 +71,11 @@
     This content is a bit longer.
     </p>
     <footer>
-    <button class="view-button" type="button">View </button>  
-    <button class="edit-button" type="button">Edit</button>
-    <span>9 mins</span>
+      <div>
+         <button class="view-button" type="button">View </button>  
+         <button class="edit-button" type="button">Edit</button>
+      </div>
+        <span>9 mins</span>
     </footer>
   </div>
  </article>
