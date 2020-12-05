@@ -133,3 +133,14 @@ footer {
 .site-plan-link:hover {
   color:#D8E2DC;
 }
+
+.how-to-order-header {
+  text-align: center;
+}
+
+.boba-figures {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+}
+
