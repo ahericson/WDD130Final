@@ -158,6 +158,6 @@ footer {
 
 section ol {
   text-align: center;
-  list-style: inside;
+  list-style-position: inside;
 }
  
