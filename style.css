@@ -136,6 +136,7 @@ footer {
 
 .how-to-order-header {
   text-align: center;
+  margin: 0;
 }
 
 .boba-figures {
@@ -151,6 +152,10 @@ figcaption {
 .how-to-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.how-to-headline {
+  grid-column: 1/3;
 }
 .how-to-paragraph {
   grid-column: 1/2;
