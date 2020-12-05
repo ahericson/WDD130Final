@@ -140,8 +140,12 @@ footer {
 
 .boba-figures {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: row wrap;
   justify-content: space-evenly;
+}
+
+figcaption {
+  text-align: center;
 }
 
 .how-to-grid {
