@@ -181,3 +181,9 @@ section ol {
 #order-headline {
   text-align: center;
 }
+
+.base-drink {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
