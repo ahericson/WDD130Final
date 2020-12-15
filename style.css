@@ -192,6 +192,9 @@ section ol {
   font-size: 120%;
 }
 
-#flavor-headline {
-  
+.drink-flavors {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
 }
+  
