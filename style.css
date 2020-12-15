@@ -185,16 +185,27 @@ section ol {
 .base-drink {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .base-drink ul {
   font-size: 120%;
+  align-self
 }
 
 .drink-flavors {
   display: flex;
   flex-flow: row wrap;
-  align-items: stretch;
+  justify-content: space-evenly;
 }
   
+.toppings {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.toppings ul {
+  align-self: center;
+  font-size: 120%;
+}
