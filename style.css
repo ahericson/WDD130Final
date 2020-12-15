@@ -219,8 +219,17 @@ section ol {
   list-style-type: none;
 }
 
+#submit {
+  display: flex;
+  
+}
+
 .rounded-image {
   border-radius:15px 50px 30px;
   border: 5px solid;
   border-color: #FFE5D9;
+}
+
+footer img{
+  border-radius: 50%;
 }
