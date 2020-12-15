@@ -27,6 +27,7 @@ h1 {
 
 .logo-header img {
   border-radius: 50%;
+  
 }
 
 nav ul {
@@ -218,6 +219,8 @@ section ol {
   list-style-type: none;
 }
 
-img {
-  border-radius:
+.rounded-image {
+  border-radius:15px 50px 30px;
+  border: 5px solid;
+  border-color: #FFE5D9;
 }
