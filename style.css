@@ -186,7 +186,10 @@ section ol {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  font-size: 
+}
+
+.base-drink ul {
+  font-size: 120%;
 }
 
 #flavor-headline {
