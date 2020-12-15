@@ -192,6 +192,7 @@ section ol {
 .base-drink ul {
   font-size: 120%;
   align-self: center;
+  list-style-type: none;
 }
 
 .drink-flavors {
@@ -200,6 +201,11 @@ section ol {
   justify-content: space-evenly;
 }
   
+.drink-flavors ul {
+  list-stye-type:none;
+}
+
+
 .toppings {
   display: flex;
   flex-flow: row wrap;
@@ -209,4 +215,5 @@ section ol {
 .toppings ul {
   align-self: center;
   font-size: 120%;
+  list-style-type: none;
 }
