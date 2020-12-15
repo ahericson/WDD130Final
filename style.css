@@ -178,3 +178,6 @@ section ol {
   list-style-position: inside;
 }
  
+#order-headline {
+  text-align: center;
+}
